@@ -1,0 +1,85 @@
+ROUTING / Routes 
+
+    Web.php This is where we load all of our views or all of our controllers 
+
+    If you are creating a api backend json etc then api.php wouldbe the file to work in. 
+    api we have to prefix tex http://127.0.0.1:8000/api/posts
+
+    Wildcards
+
+    Template
+
+
+views
+
+Module 
+Data usally comes throuh here 
+    In laravel ther is something called eloquent whihch is an orm an object relational mapper whihch 
+    gives us a very eloquent way to deal with our database so we can do the model name such as listining and then find, find all or soo on. 
+    All types of filtering and sorting 
+
+    To Create an eloqunet model in the terminal PHP ARTISAN make:model Listing 
+
+    app ->  models 
+
+
+DATABASE 
+    config -> database.php "defaul" => here you define the connection 
+
+
+MIGRATIONS
+    database -> migrations 
+        create_useres_table.php 
+           All migatrions are a class which Has a up and down method 
+                Up will create a user schema and a users table which is going to include all the fileds 
+                    Will create all of these colums for us 
+                    this cane be edited 
+
+                Down whihc will dorp the useres table 
+
+    This will be run when we call php artisan migrate and will the create table 
+
+
+Seeds 
+
+    Seeeding data and factories thats how we quikly can get stuff in the database 
+    just to test things with.
+
+    database -> seeders 
+
+
+Factory 
+
+
+Layout 
+    Contains all the repetetiv like header and footer etc 
+
+
+    {{ listing["title"] }}
+    {{ listing->title }} same ways  
+
+
+    Routemodule bidning 
+
+
+flash message one page load - combined with  alpine js 
+
+
+pagination 
+
+
+Appserviceprovider 
+
+
+uppload file 
+    config -> filesystemss 
+
+
+Middelware
+
+
+Relationship with an eloquent within laravel 
+
+
+Tinker command line tool used to work with models and create, werite queries, add to db etc 
+php artisan tinker

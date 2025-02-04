@@ -1,0 +1,4 @@
+// User autentication to api
+// specifice need s when worikg with apis 
+    // a bit different with apis tah with noraml websites 
+// LARAVEL SANCTUM 
